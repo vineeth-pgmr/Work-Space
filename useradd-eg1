@@ -1,0 +1,22 @@
+# the program will check the user is alredy created or not ,if no then it will be create a the users 
+
+red=`tput setaf 1`
+green=`tput setaf 2`
+reset=`tput sgr0`
+
+user=$(cat db2.csv)
+for j in $user
+do
+  if id $j > /dev/null
+  then
+    echo "${red}$j user exists"
+  else
+    if useradd $j
+    then
+      echo "${green}Hello $j user is created"
+    else
+      echo "${red}User $j creation failed"
+    fi
+fi
+done
+echo "${reset}" 
