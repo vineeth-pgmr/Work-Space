@@ -3,11 +3,17 @@ awk -F: '$4==1000 { print $0 }' /etc/passwd. ---> the command checks th conditio
 awk '$9==404{ print $0 }' access_log ---> The command will shows the all the lines that contains a 404 error.
 awk '$9==404{ print $1 "   " $7 }' access_log | sort | uniq -c |sort -nr ---> it prints ip address & accesed webpages on 404 error is generated.
 awk '$9==404{ print $1}' access_log | sort | uniq -c | sort | wc -l ---> Number of clients got 404 errors.
+awk '{ print NR }' lw.txt ---> it shows the lin numbers
+awk '{ print NR , $0}' lw.txt ---> it will print the line number & whole number.
+awk 'NR==3{ print NR , $0}' lw.txt ---> It will print ht third line along with line number.
+
 
 date && cal ---> if fist commad run then only second command run
 date || cal ---> if first command fail, but second command also run
 date; cal; --->  if first command fail, but second command also run
 
 ssh root@192.168.1.10 "date; cal;" ---> the command will run multiplle command in remote server.
+cat lw.txt | tr -s ' ' '\n' | sort | uniq -c | sort -nr ---> it will count the number of repeated words 
+cat lw.txt | tr -s ' ' '\n' | sort | uniq -c | sort -nr | awk '{ print $2,$1 }' ---> it will count the number of repeted words & display in a dofferent manner.
 
 
