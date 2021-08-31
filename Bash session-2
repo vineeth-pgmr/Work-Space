@@ -1,0 +1,1 @@
+awk '{ print $7 }' access_log | cut -d? -f1 | sort | uniq -c | sort -n -k1.    --> The command will show number of hits in each page of website.
