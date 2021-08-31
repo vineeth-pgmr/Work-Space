@@ -6,6 +6,10 @@ awk '$9==404{ print $1}' access_log | sort | uniq -c | sort | wc -l ---> Number 
 awk '{ print NR }' lw.txt ---> it shows the lin numbers
 awk '{ print NR , $0}' lw.txt ---> it will print the line number & whole number.
 awk 'NR==3{ print NR , $0}' lw.txt ---> It will print ht third line along with line number.
+awk '{ print NF , $0}' lw.txt ---> Show the number of fileds & line
+awk 'END { print }' lw.txt ---> It will print the last line.
+awk 'END { print NR }' lw.txt ---> print total number of line in the text file.
+awk '/vineeth/ { print }' /etc/passwd ---> the command will search for vineeth & print.
 
 
 date && cal ---> if fist commad run then only second command run
@@ -16,4 +20,8 @@ ssh root@192.168.1.10 "date; cal;" ---> the command will run multiplle command i
 cat lw.txt | tr -s ' ' '\n' | sort | uniq -c | sort -nr ---> it will count the number of repeated words 
 cat lw.txt | tr -s ' ' '\n' | sort | uniq -c | sort -nr | awk '{ print $2,$1 }' ---> it will count the number of repeted words & display in a dofferent manner.
 
+grep -n lw.txt ---> it will print along with line number.
 
+
+echo 321 | passwd --stdin vineeth ---> For change the password  of vineeth user in single line.
+sed 's/bash/sh' /etc/passwd  ---> it will replace /bash by /sh
