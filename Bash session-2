@@ -1,1 +1,12 @@
-awk '{ print $7 }' access_log | cut -d? -f1 | sort | uniq -c | sort -n -k1.    --> The command will show number of hits in each page of website.
+awk '{ print $7 }' access_log | cut -d? -f1 | sort | uniq -c | sort -n -k1.    ---> The command will show number of hits in each page of website.
+awk -F: '$4==1000 { print $0 }' /etc/passwd. ---> the command checks th condition 4th line==1000 and print that whole line.
+awk '$9==404{ print $0 }' access_log ---> The command will shows the all the lines that contains a 404 error.
+awk '$9==404{ print $1 "   " $7 }' access_log | sort | uniq -c |sort -nr ---> it prints ip address & accesed webpages on 404 error is generated.
+awk '$9==404{ print $1}' access_log | sort | uniq -c | sort | wc -l ---> Number of clients got 404 errors.
+
+date && cal ---> if fist commad run then only second command run
+date || cal ---> if first command fail, but second command also run
+date; cal; --->  if first command fail, but second command also run
+
+ssh root@192.168.1.10 "date; cal;" ---> the command will run multiplle command in remote server.
+
