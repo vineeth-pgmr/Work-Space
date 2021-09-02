@@ -1,0 +1,173 @@
+Devops
+------
+Devops is not a new tool/technology in the market.
+It is a new culture or process to develop,release and maintence of software application/project/product whith higher quality in very faster way.
+We can achieve by using automation tools.
+For any software product, two groups of engineers will work
+  1)Development Group
+  2)Operations group/Non Development group/Administration Group.
+Again this classification can be divided into small sets of grops.
+
+
+1)Development Groups:
+----------------------
+The People who are involving in
+
+1.Planning
+2.Coding
+3.Build 
+4.Testing
+
+are considerd as development group.
+
+eg:-
+Business Analyst(BA)
+System Analyst(SA)
+Design Architech(DA)
+Developers/coders
+Build Engineers
+Test Engineeers/QA
+
+2)Operation Group:
+------------------
+The People who are involving in
+
+1.Release
+2.Deployment
+3.Operations
+4.Monitoring
+
+are considerd as Operations Grop.
+
+eg:-
+Release Engineers
+Configuration Engineer
+System Administrator
+Database Administrator
+Network Administrator etc...
+
+are considerd as Operations Group
+
+Devops is a cobination of Development & Operatopns.
+
+The main objective of devops is to implement between development and operation teams.
+
+To understand the new devops culture, we have to aware already existing SDLC Models.
+
+SDLC --> Software Development Life cycle
+
+1.Waterfall Model
+2.Prototype Mode;
+3.Increment/Iterative Model
+4.Spiral MOdel
+5.RAD Model
+6.Big-Bang Model
+7.Fish Model
+8. V Model
+9.Agile Model
+
+10)Devops Model
+
+1) Water fall Model:
+--------------------
+Requirement Gathering / Collection
+  Requirement Analysis
+    Design
+      Coding
+        Testing
+          Release
+            Maintance
+
+Also known as Linear Sequencial Model.
+
+Advantages:
+-----------
+1.It is very simple & easy to implement.
+2.Best suitable if the requirements are fixd.
+3.Best suitable for small projects
+
+Limitations:
+-----------
+1.Developemt time will be incress
+2.Cost of development will be incress
+3.It won't accept requirement changes in middle
+4.Client Saisfaction very low
+5.Bug fixing very costly bcoz we cannot identify bugs in early stages of lifecycle
+6.Not at all suitable if requirements keep on changing.
+7.Not suitable for large projections.
+
+9. Agile Model
+--------------
+This was the most frequiently used and hot cake model in software development.
+Agile Model is divided into multiple sub models.
+
+1.Rational Unify Process(RUP)
+2.Adaptive Software Development(ASD)
+3.Feature Driven Development(FDD)
+4.Crystal Clear
+5.Dynamic Software Development Method(DSDM)
+6.Extream Programming(XP)
+7.SCRUM MOdel
+etc.
+
+Among all these modles Scrum model is most popular and frequently used model.
+
+Agile ==> SPeed
+SCRUM is Agile based model
+It is not linear sequancial model.
+it is iterative model.Total software product will be developed increment by increment and each increment is called a sprint.
+
+Continuous delivery
+Continuous Feedback
+Requirement changes in the middle 
+Client Satisfaction is very high
+Less Development time
+Less Development cost
+
+SCRUM is derived from Rugby Game.
+In every sprint 7 to 9 members will work
+each sprint will be deliverd from one week to 3 weeks time.
+
+Why we should go for Devops????
+--------------------------------
+Deveops and agile both are different models.
+
+Similarities:
+-------------
+1.Both are software development methodologies.
+2.Both models concentrating on rapid software development with team collaoration.
+
+Differences:
+------------
+1.The difference will come once development of the project completed.
+
+Agile model talks about only development but not operations.
+Devops model talks about complete product life cycle like developement and operations.
+
+2.In Agile model, separate people are responsible for development,testing,deployment etc. etc
+
+But in devops ,the devops engineer is reposible for everything like development to oprations and operations to development.
+
+Devops generalist
+
+3.Agile model wont force to use automation tools.
+But devops model is completely based on automation.
+
+4.Agile is always giving highest priorty for speed.
+Devops giving the priority for both quailty and speed.
+
+5.IN agile, client is responsible to give the feedback for the sprint.
+But in devops, immediate feedback is avilable from monitoring tools.
+
+
+
+
+
+
+
+            
+
+
+
+
+
