@@ -217,6 +217,49 @@ Every version we have to maintain.
     Who did the change
     When he did the change
     which changes hed did etc...
+3.Overwriting of the code shoud not be happen.
+4.Developers have to share their code to peer developers, so that multiple developers will work in collaborative way.
+5.Parallel development mustbe required.
+
+How version control system works:
+---------------------------------
+
+Version control system always talks about files which contain source code.
+tester --->tets script
+Architect ---> Documents
+Project Manager ---> Excell Sheets
+
+Working directory:
+------------------
+Where developers are required to create/modify files.
+Here version control is not applicable.Here we won't use the work like version-1,version-2 etc.
+
+Repository:
+-----------
+Where we have to store files and metadata.
+here version control is applicable
+Here we can talk abot versions like version-1,version02 etc..
+
+commit: --->The process of sending files from working directory to the repository.
+checkout: --->The process of sending files from repository to working directory.
+
+Benefits of Version Control System
+----------------------------------
+1.We can maintain different versions and any version based on client requirement.
+2.With every version / commit we can maintain metdata like
+    commit message
+    who did changes
+    when he did the change
+    what changes hed did
+3.Developers can share the code to peer developer in very easy way.
+4.Multiple developers can work in collaborataive way
+5.Parallel development.
+6.We can provide access control like
+    who can read code
+    who can mofify code
+ 
+
+
 
   
 
