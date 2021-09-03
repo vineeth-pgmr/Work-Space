@@ -1,5 +1,7 @@
-Devops
-------
+02-08-2021
+Devops Intoduction in simple way Waterfall vs Agile vs Devops
+-------------------------------------------------------------
+
 Devops is not a new tool/technology in the market.
 It is a new culture or process to develop,release and maintence of software application/project/product whith higher quality in very faster way.
 We can achieve by using automation tools.
@@ -57,9 +59,9 @@ To understand the new devops culture, we have to aware already existing SDLC Mod
 SDLC --> Software Development Life cycle
 
 1.Waterfall Model
-2.Prototype Mode;
+2.Prototype Model
 3.Increment/Iterative Model
-4.Spiral MOdel
+4.Spiral Model
 5.RAD Model
 6.Big-Bang Model
 7.Fish Model
@@ -107,12 +109,12 @@ Agile Model is divided into multiple sub models.
 4.Crystal Clear
 5.Dynamic Software Development Method(DSDM)
 6.Extream Programming(XP)
-7.SCRUM MOdel
+7.SCRUM Model
 etc.
 
 Among all these modles Scrum model is most popular and frequently used model.
 
-Agile ==> SPeed
+Agile ==> Speed
 SCRUM is Agile based model
 It is not linear sequancial model.
 it is iterative model.Total software product will be developed increment by increment and each increment is called a sprint.
@@ -164,14 +166,14 @@ What is Devops?
 
 It is new culture/process
 
-It is a new culture/process
-
 It is the process of continues development,continous build,continous test,continous release of the software.
 
-Devops Automation tools:-
+
+
+03-09-2021
 -------------------------
-
-
+DEVOPS-Need of Version Control Systems | How it works | Basic Terminology | Benefits |
+--------------------------------------------------------------------------------------
 
 
 
