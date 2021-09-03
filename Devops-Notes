@@ -175,6 +175,50 @@ It is the process of continues development,continous build,continous test,contin
 DEVOPS-Need of Version Control Systems | How it works | Basic Terminology | Benefits |
 --------------------------------------------------------------------------------------
 
+Top Importent points about Devops:
+---------------------------------
+1.Devops is not a new tool/technology in the market
+2.It is new culture or Process to develop,release and maintain software products.
+3.Devops is a combination of Development and Operations.
+4.The main objective of devops is to implement collaboration between development and operations teams.
+5.The beauty of devops is everything is automated and we can use several automation tools for developments & operations.
+6.Devops Engineer is All Rounder.He should aware everything.Hence his role is considred as Devops Generalis.
+7.Devops is not Agile model and it is more than that because it covers Development and operatons,where as Agile covers only Development but not operations.
+8.Devops Cycle is an Infinite loop where every thing is continous.
+
+Version Control System Tool:
+----------------------------
+Version Control System is also known as 
+  Software Configuration Management (SCM) or
+  Source Code Management (SCM)
+  
+Need of Version Control System?
+-------------------------------
+
+Developer -----------> Write Code ----------> Files
+
+Client ----------> Vineeth
+Requirement -------> Please Develop this Project.
+
+client project
+  |---100 files developed.
+  | - client suggested some changes
+  | - I changed some files source code to meet client requirement
+  | - I gave the demo and client suggested some more changes
+  | - I changed some files source code to meet client requirement
+  | - I gave demo 3rd time.
+  
+We should not overwrite our code.
+Every version we have to maintain.
+100 developers.
+
+1.Maintaining multipple versions manually is very complex activity.
+2.Every changes shoud be tracked.
+    Who did the change
+    When he did the change
+    which changes hed did etc...
+
+  
 
 
 
