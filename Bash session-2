@@ -1,3 +1,4 @@
+awk '{ print $1 }' access.log | cut -d? -f1 | sort | uniq -c --> Number of ip and hits
 awk '{ print $7 }' access_log | cut -d? -f1 | sort | uniq -c | sort -n -k1.    ---> The command will show number of hits in each page of website.
 awk -F: '$4==1000 { print $0 }' /etc/passwd. ---> the command checks th condition 4th line==1000 and print that whole line.
 awk '$9==404{ print $0 }' access_log ---> The command will shows the all the lines that contains a 404 error.
